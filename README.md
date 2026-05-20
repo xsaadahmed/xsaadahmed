@@ -1,52 +1,54 @@
-<div align="center">
-  
-# 👋 Hey, I'm Saad
+# yo, i'm saad 👾
 
-### I love building things that make people's lives easier
-
-</div>
+**sorry, no calls. only python.**
 
 ---
 
-## 🚀 What I Do
+## what i'm up to
 
-I'm a developer who enjoys turning ideas into reality through code. Whether it's crafting smooth user experiences or solving tricky problems, I'm always tinkering with something new.
+making stuff that (sometimes) works. mostly js, sometimes other things. big fan of the "build first, ask questions later" approach.
 
-## 🛠️ Tech Stack
+**current status:** probably debugging something that was working yesterday
 
-```javascript
-const skills = {
-    languages: ['JavaScript', 'Python', 'HTML/CSS'],
-    frameworks: ['React', 'Node.js'],
-    interests: ['Web Development', 'Problem Solving', 'Open Source'],
-    currentlyLearning: 'Always something new'
-};
+## things i actually use
+
+- javascript (the good parts... all 3 of them)
+- python when i'm feeling fancy
+- html/css because someone has to
+- react for the dopamine hits
+- coffee (not a language but should be)
+
+## repos you might wanna check
+
+- **rockpaperscissors** - exactly what it sounds like
+- **shopping-list** - because memory is overrated
+- **etch-a-sketch** - childhood nostalgia meets code
+
+## the vibe
+
+```python
+def saad():
+    while coffee_exists:
+        code()
+        break_something()
+        fix_it()
+        repeat()
 ```
 
-## 📊 GitHub Stats
+look, i'm just here to build cool stuff and learn along the way. some projects are polished, most are "good enough for now." 
 
-<div align="center">
-  
-![Saad's GitHub Stats](https://github-readme-stats.vercel.app/api?username=xsaadahmed&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=xsaadahmed&layout=compact&theme=radical&hide_border=true&bg_color=0D1117)
-
-</div>
-
-## 🎯 Current Focus
-
-- 🌱 Sharpening my JavaScript skills
-- 🔨 Building projects that solve real problems
-- 💡 Learning from the dev community
-
-## 📫 Let's Connect
-
-Feel free to reach out if you want to collaborate or just chat about tech!
+if you're into that energy, let's connect.
 
 ---
 
+**fun fact:** 25 contributions last year. not flexing, just consistent at being inconsistent.
+
 <div align="center">
-  
-*"Code is like humor. When you have to explain it, it's bad." – Cory House*
+
+![](https://github-readme-stats.vercel.app/api?username=xsaadahmed&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)
 
 </div>
+
+---
+
+*tabs > spaces. fight me.* 💀
