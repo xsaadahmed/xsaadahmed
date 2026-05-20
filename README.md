@@ -1,54 +1,43 @@
-# yo, i'm saad 👾
+# Hey, I'm Saad
 
-**sorry, no calls. only python.**
-
----
-
-## what i'm up to
-
-making stuff that (sometimes) works. mostly js, sometimes other things. big fan of the "build first, ask questions later" approach.
-
-**current status:** probably debugging something that was working yesterday
-
-## things i actually use
-
-- javascript (the good parts... all 3 of them)
-- python when i'm feeling fancy
-- html/css because someone has to
-- react for the dopamine hits
-- coffee (not a language but should be)
-
-## repos you might wanna check
-
-- **rockpaperscissors** - exactly what it sounds like
-- **shopping-list** - because memory is overrated
-- **etch-a-sketch** - childhood nostalgia meets code
-
-## the vibe
-
-```python
-def saad():
-    while coffee_exists:
-        code()
-        break_something()
-        fix_it()
-        repeat()
-```
-
-look, i'm just here to build cool stuff and learn along the way. some projects are polished, most are "good enough for now." 
-
-if you're into that energy, let's connect.
+Python Warrior
 
 ---
 
-**fun fact:** 25 contributions last year. not flexing, just consistent at being inconsistent.
+## About Me
+
+I'm a developer who enjoys building things and solving problems through code. I work primarily with JavaScript and Python, and I'm always learning something new.
+
+## What I Work With
+
+- JavaScript & React
+- Python
+- HTML/CSS
+- Node.js
+
+## Projects
+
+Some things I've built:
+
+- **rockpaperscissors** - A classic game implementation
+- **shopping-list** - Simple list management app
+- **etch-a-sketch** - Digital drawing board
+- **odin-javascript-exercises** - Problem solving practice
+
+## Current Focus
+
+Right now I'm focused on strengthening my fundamentals and building projects that solve real problems. I believe in learning by doing, and most of my repositories reflect that philosophy.
+
+## Stats
 
 <div align="center">
 
-![](https://github-readme-stats.vercel.app/api?username=xsaadahmed&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=xsaadahmed&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)
 
 </div>
 
 ---
 
-*tabs > spaces. fight me.* 💀
+25 contributions in the last year. Always working on something.
+
+Feel free to check out my work or reach out if you want to collaborate.
