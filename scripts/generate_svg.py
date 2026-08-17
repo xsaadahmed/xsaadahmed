@@ -7,7 +7,8 @@ lines on the right.
 from datetime import datetime, timezone
 from xml.sax.saxutils import escape
 
-FONT_SIZE = 13
+FONT_SIZE = 13 * 1.25  # stats/info text
+ART_FONT_MIN = 13       # ASCII art floor (unchanged)
 CHAR_W = FONT_SIZE * 0.6      # monospace advance width
 LINE_H = FONT_SIZE * 1.3
 PAD = 24
@@ -184,7 +185,7 @@ def render_svg(ascii_rows: list[str], stats: dict, profile: dict, mode: str,
     art_rows = len(ascii_rows)
     if art_font_size is None:
         target_h = 480
-        art_font_size = max(FONT_SIZE, min(28, target_h / (art_rows * 1.3)))
+        art_font_size = max(ART_FONT_MIN, min(28, target_h / (art_rows * 1.3)))
 
     art_char_w = art_font_size * 0.6
     art_line_h = art_font_size * 1.3
