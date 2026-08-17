@@ -7,9 +7,9 @@ lines on the right.
 from datetime import datetime, timezone
 from xml.sax.saxutils import escape
 
-FONT_SIZE = 10
+FONT_SIZE = 13
 CHAR_W = FONT_SIZE * 0.6      # monospace advance width
-LINE_H = FONT_SIZE * 1.28
+LINE_H = FONT_SIZE * 1.3
 PAD = 24
 
 THEMES = {
@@ -57,7 +57,6 @@ def _dotted_line(label: str, value: str, width: int = 34) -> tuple[str, str]:
 
 
 def build_stat_lines(stats: dict, profile: dict) -> list[tuple]:
-    """Returns a list of ('header'|'field'|'section'|'blank', ...) rows."""
     login = stats["login"]
     rows: list[tuple] = []
     rows.append(("header", f"{login}@github", "-" * 28))
@@ -104,7 +103,6 @@ def build_stat_lines(stats: dict, profile: dict) -> list[tuple]:
 
 
 def _text_line(x: float, y: float, spans: list[tuple[str, str]]) -> str:
-    """spans: list of (text, color). Skips empty text."""
     inner = "".join(
         f'<tspan fill="{color}">{escape(text)}</tspan>'
         for text, color in spans if text
@@ -112,11 +110,13 @@ def _text_line(x: float, y: float, spans: list[tuple[str, str]]) -> str:
     return f'<text x="{x:.1f}" y="{y:.1f}" xml:space="preserve">{inner}</text>'
 
 
-def _ascii_lines(ascii_rows: list[str], x0: float, y0: float, color: str) -> str:
+def _ascii_lines(ascii_rows: list[str], x0: float, y0: float, color: str, font_size: float) -> str:
+    line_h = font_size * 1.3
     out = []
     for row_i, line in enumerate(ascii_rows):
-        y = y0 + row_i * LINE_H
-        out.append(_text_line(x0, y, [(line, color)]))
+        y = y0 + row_i * line_h
+        out.append(f'<text x="{x0:.1f}" y="{y:.1f}" font-size="{font_size}" xml:space="preserve">'
+                    f'<tspan fill="{color}">{escape(line)}</tspan></text>')
     return "\n  ".join(out)
 
 
@@ -172,16 +172,24 @@ def _stat_lines(rows: list[tuple], x0: float, y0: float, theme: dict) -> tuple[s
     return "\n  ".join(out), y, max_chars
 
 
-def render_svg(ascii_rows: list[str], stats: dict, profile: dict, mode: str) -> str:
+def render_svg(ascii_rows: list[str], stats: dict, profile: dict, mode: str,
+                art_font_size: float | None = None) -> str:
     theme = THEMES[mode]
     stat_rows = build_stat_lines(stats, profile)
 
     art_cols = max(len(r) for r in ascii_rows)
-    art_w = art_cols * CHAR_W
-    art_h = len(ascii_rows) * LINE_H
+    art_rows = len(ascii_rows)
+    if art_font_size is None:
+        target_h = 480
+        art_font_size = max(FONT_SIZE, min(28, target_h / (art_rows * 1.3)))
+
+    art_char_w = art_font_size * 0.6
+    art_line_h = art_font_size * 1.3
+    art_w = art_cols * art_char_w
+    art_h = art_rows * art_line_h
 
     stats_x = PAD * 2 + art_w
-    art_svg = _ascii_lines(ascii_rows, PAD, PAD + FONT_SIZE, theme["art"])
+    art_svg = _ascii_lines(ascii_rows, PAD, PAD + art_font_size, theme["art"], art_font_size)
     stats_svg, stats_end_y, stats_max_chars = _stat_lines(stat_rows, stats_x, PAD + FONT_SIZE, theme)
 
     total_h = max(art_h, stats_end_y - PAD) + PAD * 1.5
