@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="930" height="516"
-     viewBox="0 0 930 516" font-family="'DejaVu Sans Mono','Cascadia Code','Fira Code',Consolas,monospace" font-size="13">
+<svg xmlns="http://www.w3.org/2000/svg" width="954" height="516"
+     viewBox="0 0 954 516" font-family="'DejaVu Sans Mono','Cascadia Code','Fira Code',Consolas,monospace" font-size="13">
   <rect width="100%" height="100%" rx="10" fill="#0d1117" stroke="#30363d"/>
   <text x="24.0" y="42.5" font-size="18.46153846153846" xml:space="preserve"><tspan fill="#c9d1d9">                --.           </tspan></text>
   <text x="24.0" y="66.5" font-size="18.46153846153846" xml:space="preserve"><tspan fill="#c9d1d9">         .  :=%%@@@@@%:       </tspan></text>
@@ -23,18 +23,21 @@
   <text x="24.0" y="498.5" font-size="18.46153846153846" xml:space="preserve"><tspan fill="#c9d1d9">           #@@+=*###*=-:...:::.</tspan></text>
   <text x="391.4" y="37.0" xml:space="preserve"><tspan fill="#f0f6fc">xsaadahmed@github</tspan><tspan fill="#30363d">  ----------------------------</tspan></text>
   <text x="391.4" y="53.9" xml:space="preserve"><tspan fill="#58a6ff">. Uptime: </tspan><tspan fill="#8b949e">............................</tspan><tspan fill="#c9d1d9"> 2 years, 1 month, 0 days</tspan></text>
-  <text x="391.4" y="70.8" xml:space="preserve"><tspan fill="#58a6ff">. Editor: </tspan><tspan fill="#8b949e">............................</tspan><tspan fill="#c9d1d9"> VS Code, PyCharm</tspan></text>
-  <text x="391.4" y="87.7" xml:space="preserve"><tspan fill="#58a6ff">. Languages.Programming: </tspan><tspan fill="#8b949e">.............</tspan><tspan fill="#c9d1d9"> Python, Java, C, JS/TS, SQL</tspan></text>
-  <text x="391.4" y="104.6" xml:space="preserve"><tspan fill="#58a6ff">. Favorite Language: </tspan><tspan fill="#8b949e">.................</tspan><tspan fill="#c9d1d9"> Python</tspan></text>
-  <text x="391.4" y="121.5" xml:space="preserve"><tspan fill="#58a6ff">. Currently: </tspan><tspan fill="#8b949e">.........................</tspan><tspan fill="#c9d1d9"> SWE Extern @ Pfizer</tspan></text>
-  <text x="391.4" y="138.4" xml:space="preserve"><tspan fill="#58a6ff">. University: </tspan><tspan fill="#8b949e">........................</tspan><tspan fill="#c9d1d9"> UMass Amherst - CS + Stats</tspan></text>
-  <text x="391.4" y="172.2" xml:space="preserve"><tspan fill="#f0f6fc">- Contact </tspan><tspan fill="#30363d">----------------------------------</tspan></text>
-  <text x="391.4" y="189.1" xml:space="preserve"><tspan fill="#58a6ff">. Email: </tspan><tspan fill="#8b949e">.............................</tspan><tspan fill="#c9d1d9"> xsaadahmed@gmail.com</tspan></text>
-  <text x="391.4" y="206.0" xml:space="preserve"><tspan fill="#58a6ff">. LinkedIn: </tspan><tspan fill="#8b949e">..........................</tspan><tspan fill="#c9d1d9"> linkedin.com/in/saadhmed</tspan></text>
-  <text x="391.4" y="222.9" xml:space="preserve"><tspan fill="#58a6ff">. GitHub: </tspan><tspan fill="#8b949e">............................</tspan><tspan fill="#c9d1d9"> xsaadahmed</tspan></text>
-  <text x="391.4" y="256.7" xml:space="preserve"><tspan fill="#f0f6fc">- GitHub Stats </tspan><tspan fill="#30363d">----------------------------</tspan></text>
-  <text x="391.4" y="273.6" xml:space="preserve"><tspan fill="#58a6ff">. Repos: 18</tspan><tspan fill="#8b949e">  |  </tspan><tspan fill="#c9d1d9">Followers: 1</tspan><tspan fill="#8b949e">  |  </tspan><tspan fill="#c9d1d9">Releases: 2</tspan></text>
-  <text x="391.4" y="290.5" xml:space="preserve"><tspan fill="#58a6ff">. Commits (all time): </tspan><tspan fill="#8b949e">................</tspan><tspan fill="#c9d1d9"> 1736</tspan></text>
-  <text x="391.4" y="307.4" xml:space="preserve"><tspan fill="#58a6ff">. Contributions (past year): </tspan><tspan fill="#8b949e">.........</tspan><tspan fill="#c9d1d9"> 124</tspan></text>
-  <text x="391.4" y="324.3" xml:space="preserve"><tspan fill="#58a6ff">. Lines of Code: </tspan><tspan fill="#c9d1d9">66,210 (</tspan><tspan fill="#3fb950">+64,959</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#f85149">-1,251</tspan><tspan fill="#c9d1d9">)</tspan></text>
+  <text x="391.4" y="70.8" xml:space="preserve"><tspan fill="#58a6ff">. Kernel: </tspan><tspan fill="#8b949e">............................</tspan><tspan fill="#c9d1d9"> Software Developer</tspan></text>
+  <text x="391.4" y="87.7" xml:space="preserve"><tspan fill="#58a6ff">. OS: </tspan><tspan fill="#8b949e">................................</tspan><tspan fill="#c9d1d9"> Windows 11, iOS 27 beta, Linux</tspan></text>
+  <text x="391.4" y="104.6" xml:space="preserve"><tspan fill="#58a6ff">. Editor: </tspan><tspan fill="#8b949e">............................</tspan><tspan fill="#c9d1d9"> VSCode and Cursor</tspan></text>
+  <text x="391.4" y="121.5" xml:space="preserve"><tspan fill="#58a6ff">. Languages.Programming: </tspan><tspan fill="#8b949e">.............</tspan><tspan fill="#c9d1d9"> Python, Java, C, JS/TS, SQL</tspan></text>
+  <text x="391.4" y="138.4" xml:space="preserve"><tspan fill="#58a6ff">. Education: </tspan><tspan fill="#8b949e">.........................</tspan><tspan fill="#c9d1d9"> UMass Amherst - CS + Stats</tspan></text>
+  <text x="391.4" y="155.3" xml:space="preserve"><tspan fill="#58a6ff">. Languages: </tspan><tspan fill="#8b949e">.........................</tspan><tspan fill="#c9d1d9"> English, Urdu, Hindi, Arabic</tspan></text>
+  <text x="391.4" y="172.2" xml:space="preserve"><tspan fill="#58a6ff">. Hobbies: </tspan><tspan fill="#8b949e">...........................</tspan><tspan fill="#c9d1d9"> Soccer, Cooking</tspan></text>
+  <text x="391.4" y="206.0" xml:space="preserve"><tspan fill="#f0f6fc">- Contact </tspan><tspan fill="#30363d">----------------------------------</tspan></text>
+  <text x="391.4" y="222.9" xml:space="preserve"><tspan fill="#58a6ff">. Email: </tspan><tspan fill="#8b949e">.............................</tspan><tspan fill="#c9d1d9"> xsaadahmed@gmail.com</tspan></text>
+  <text x="391.4" y="239.8" xml:space="preserve"><tspan fill="#58a6ff">. School Email: </tspan><tspan fill="#8b949e">......................</tspan><tspan fill="#c9d1d9"> saadahmed@umass.edu</tspan></text>
+  <text x="391.4" y="256.7" xml:space="preserve"><tspan fill="#58a6ff">. LinkedIn: </tspan><tspan fill="#8b949e">..........................</tspan><tspan fill="#c9d1d9"> linkedin.com/in/saadhmed</tspan></text>
+  <text x="391.4" y="273.6" xml:space="preserve"><tspan fill="#58a6ff">. GitHub: </tspan><tspan fill="#8b949e">............................</tspan><tspan fill="#c9d1d9"> xsaadahmed</tspan></text>
+  <text x="391.4" y="307.4" xml:space="preserve"><tspan fill="#f0f6fc">- GitHub Stats </tspan><tspan fill="#30363d">----------------------------</tspan></text>
+  <text x="391.4" y="324.3" xml:space="preserve"><tspan fill="#58a6ff">. Repos: 18</tspan><tspan fill="#8b949e">  |  </tspan><tspan fill="#c9d1d9">Followers: 1</tspan><tspan fill="#8b949e">  |  </tspan><tspan fill="#c9d1d9">Releases: 2</tspan></text>
+  <text x="391.4" y="341.2" xml:space="preserve"><tspan fill="#58a6ff">. Commits (all time): </tspan><tspan fill="#8b949e">................</tspan><tspan fill="#c9d1d9"> 1736</tspan></text>
+  <text x="391.4" y="358.1" xml:space="preserve"><tspan fill="#58a6ff">. Contributions (past year): </tspan><tspan fill="#8b949e">.........</tspan><tspan fill="#c9d1d9"> 124</tspan></text>
+  <text x="391.4" y="375.0" xml:space="preserve"><tspan fill="#58a6ff">. Lines of Code: </tspan><tspan fill="#c9d1d9">66,210 (</tspan><tspan fill="#3fb950">+64,959</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#f85149">-1,251</tspan><tspan fill="#c9d1d9">)</tspan></text>
 </svg>

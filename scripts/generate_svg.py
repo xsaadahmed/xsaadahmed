@@ -63,11 +63,13 @@ def build_stat_lines(stats: dict, profile: dict) -> list[tuple]:
 
     fields = [
         ("Uptime", _uptime_string(stats["created_at"])),
-        ("Editor", profile.get("editor", "VS Code, PyCharm")),
+        ("Kernel", profile.get("kernel", "")),
+        ("OS", profile.get("os", "")),
+        ("Editor", profile.get("editor", "VSCode and Cursor")),
         ("Languages.Programming", profile.get("languages", "Python, Java, C, JS/TS, SQL")),
-        ("Favorite Language", profile.get("favorite_language", "Python")),
-        ("Currently", profile.get("currently", "SWE Extern @ Pfizer")),
-        ("University", profile.get("university", "UMass Amherst \u2014 CS + Stats")),
+        ("Education", profile.get("education", "")),
+        ("Languages", profile.get("spoken_languages", "")),
+        ("Hobbies", profile.get("hobbies", "")),
     ]
     for label, value in fields:
         rows.append(("field", *_dotted_line(label, value)))
@@ -76,6 +78,7 @@ def build_stat_lines(stats: dict, profile: dict) -> list[tuple]:
     rows.append(("section", "Contact", "-" * 34))
     for label, value in [
         ("Email", profile.get("email", "")),
+        ("School Email", profile.get("school_email", "")),
         ("LinkedIn", profile.get("linkedin", "")),
         ("GitHub", login),
     ]:

@@ -15,12 +15,15 @@ STATS = {
 }
 
 PROFILE = {
-    "editor": "VS Code, PyCharm",
+    "kernel": "Software Developer",
+    "os": "Windows 11, iOS 27 beta, Linux",
+    "editor": "VSCode and Cursor",
     "languages": "Python, Java, C, JS/TS, SQL",
-    "favorite_language": "Python",
-    "currently": "SWE Extern @ Pfizer",
-    "university": "UMass Amherst - CS + Stats",
+    "education": "UMass Amherst - CS + Stats",
+    "spoken_languages": "English, Urdu, Hindi, Arabic",
+    "hobbies": "Soccer, Cooking",
     "email": "xsaadahmed@gmail.com",
+    "school_email": "saadahmed@umass.edu",
     "linkedin": "linkedin.com/in/saadhmed",
 }
 
